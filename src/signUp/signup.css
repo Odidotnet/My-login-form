@@ -1,0 +1,73 @@
+*{
+    background-color: aliceblue;
+}
+
+.addUser {
+    width: 25%;
+    margin: 70px auto; /* Center horizontally */
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+  }
+
+.addUser h3 {
+    text-align: center;
+    font-weight: 800;
+}
+
+.addUserForm, .inputGroup, .form-floating, label, h3 {
+    background-color: transparent;
+}
+
+.addUserForm .inputGroup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.addUserForm .inputGroup label {
+    margin-top: 10px;
+}
+
+.addUserForm .inputGroup input {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.inputGroup button {
+    margin-top: 15px;
+}
+
+input:focus {
+    transition: all 300ms ease-in-out;
+    outline: 1px solid #4cd4ab !important;
+    box-shadow: none !important;
+    border: 1px solid #ccc !important; /* Adjust border style as needed */
+  }
+
+  .btn {
+    background-color: #20c997 !important;
+    border: 0px !important;
+    padding: 10px !important;
+  }
+
+  .login {
+    background-color: transparent !important;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .login .btn.btn-success {
+    width: 50%;
+  }
+
+ 
+  @media (max-width: 768px) {
+    .addUser {
+      width: 100%; /* Full width on smaller screens */
+      margin: 20px auto; /* Adjust margins for smaller screens */
+    }
+  }
