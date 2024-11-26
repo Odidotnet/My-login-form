@@ -14,7 +14,7 @@ export const Login = () => {
               <input
                 type="Email" className="form-control"
                 autoComplete="off" id="floatingInput"
-                placeholder="Enter Email here"
+                placeholder=" "
               />
               <label htmlFor="Email floatingInput" className="mb-2">Email*</label>
               </div>
@@ -23,7 +23,7 @@ export const Login = () => {
               <input
                 type="password" className="form-control"
                 autoComplete="off" id="floatingInput"
-                placeholder="Enter Password here"
+                placeholder="  "
               />
               <label htmlFor="password floatingInput" className="mb-2">Password*</label>
               </div>
