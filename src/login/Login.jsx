@@ -10,9 +10,9 @@ export const Login = () => {
   const [password, setPassword] = useState('');
   function handleSubmit(event) {
     event.preventDefault();
-    axios.post('http://localhost/phpmyadmin/index.php?route=/database/structure&db=user_database', {email, password})
-    .then(res => console.log(res))
-    .catch(err => console.log(err));
+    axios.post('http://localhost:5000/api/login', { email, password })
+  .then(res => console.log(res))
+  .catch(err => console.log(err));
   }
   return (
     <div className="addUser">

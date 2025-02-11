@@ -20,7 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build"
+    "build": "react-scripts --openssl-legacy-provider build",
+    "proxy": "http://localhost:5000"
   },
   "eslintConfig": {
     "extends": [
